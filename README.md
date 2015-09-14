@@ -37,4 +37,10 @@
 * Everything that the form captures should be printed to the console when the form is submitted...  
 * ... but the form itself should be disabled from its usual behaviour
 
-Stretch goals to follow...
+**Stretch goals**  
+  
+* Make your form look pretty  
+* As well as printing to the console, make the page display the form values below the form when submitted  
+ * Add a "clear" button so the user can clear this  
+ * What happens to the form itself when the submit button is pressed? Do the values stay there, or do they disappear? What would you like to happen? Make it so.
+* Make the whole page display JUST ONE BUTTON. But clicking the button generates the form that you made originally  
