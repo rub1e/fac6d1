@@ -18,4 +18,4 @@ var typeInput = document.getElementById('t-type'); var intInput = 11; var enjInp
   console.log("{Type: "+typeInput.value+"}");
   console.log("{Intensity: "+intInput+"}"); 
   console.log("{Enjoyment: "+enjInput+"}"); 
-  console.log("{Length: "+lenInput.value+"}"); console.log("{Notes: "+noteInput.value+"}"); console.log("{Injuries: "+injInput.value+"}"); console.log("{Goals: "+goalInput.value+"}")});
+  console.log("{Length: "+lenInput.value+"}"); console.log("{Notes: "+noteInput.value+"}"); console.log("{Injuries: "+injInput.value+"}"); console.log("{Goals: "+goalInput.value+"}")});</script>
