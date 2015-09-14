@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<HTML lang="en">
+
+	<head>
+		<link type="text/css" rel="stylesheet" href="app.css"/> 
+		<title id="title"> Inner animal app</title>
+	</head>
+
+	<body>
+		<h1> Find your inner animal </h1>
+
+		<p> Take the test and unleash your inner beast! </p>
+
+		<form action="appform.asp" method ="post">
+			<div id="name">
+				What's your name? <input type="text" name="username"> 
+			</div>
+
+			<div id="description">
+				<h2>Which of the following best describes you? </h2> 
+				<input type="radio" name= "describe" value="very small"> Very small <br> 
+				<input type="radio" name= "describe" value="big"> Big <br> 
+				<input type="radio" name= "describe" value="shy"> Shy <br> 
+				<input type="radio" name= "describe" value="happy"> Happy <br> 
+				<input type="radio" name= "describe" value="awesome"> Awesome <br> 
+
+			</div>
+
+			<div id="food">
+				<h2>What's your favourite food?</h2>
+				<input type="checkbox" name="food" value="0"> Vegetables <br>
+				<input type="checkbox" name="food" value="1"> Salad <br>
+				<input type="checkbox" name="food" value="2"> Nuts <br>
+				<input type="checkbox" name="food" value="3"> Fish <br>
+				<input type="checkbox" name="food" value="4"> Fruit <br>
+			</div>	
+
+			<div id="activity">
+				<h2> What's your favourite activity?</h2>
+				<select>
+					<option name="activity" value="swimming">Swimming</option>
+					<option name="activity" value="chilling">Chilling</option>
+					<option name="activity" value="hugging">Hugging</option>
+					<option name="activity" value="smiling">Smiling</option>
+					<option name="activity" value="beingCute">Being cute</option>
+				</select>
+			</div>
+
+			<div>
+				<input type="submit" value="Generate">
+			</div>	
+
+		</form>
+
+	</body>
+	<script type="text/javascript" src="input.js"></script>
+</HTML>
