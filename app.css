@@ -18,20 +18,8 @@
  }
 
  h2 {
- 	text-align: center;
  	font-family: "Helvetica", sans-serif;
  }
-
- describe{
- 	display: inline;
- }
-
- div.transbox {
- 	margin: 30px;
- 	background-color: #fffffff;
- 	border: 1px solid black;
- 	opacity: 0.7;
- 	f }
 
  form {
  	background: url('http://pbs.twimg.com/media/BmvqIrpIQAA59fd.jpg');
@@ -53,9 +41,13 @@
     }
  }
 
+ input[type="activity"] {
+      display: inline;
+ }
+
  input[type="submit"] {
-      background: red;
-      color: white;
+      background: rgb(0,0,0,1);
+      color: black;
       align: center;
 
  
