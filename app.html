@@ -2,41 +2,56 @@
 
 <HTML lang="en">
 
-<head>
-<link type="text/css" rel="stylesheet" href="app.css" /> 
-<title>Inner animal app</title>
-</head>
-<body>
-<h1> Find your inner animal </h1>
+	<head>
+		<link type="text/css" rel="stylesheet" href="app.css"/> 
+		<title>Inner animal app</title>
+	</head>
 
-<p> Take the test and unleash your inner beast! </p>
+	<body>
+		<h1> Find your inner animal </h1>
 
-<form action="appform.asp" method ="post">
-	<div>
-		What's your name? <input type="text" name="username"> 
-	</div>
+		<p> Take the test and unleash your inner beast! </p>
 
-	<div>
-		<h2>Which of the following best describes you? </h2> 
-		<input type="radio" name= "describe" value="verySmall"> Very small <br> 
-		<input type="radio" name= "describe" value="big"> Big <br> 
-		<input type="radio" name= "describe" value="shy"> Shy <br> 
-		<input type="radio" name= "describe" value="happy"> Happy <br> 
-		<input type="radio" name= "describe" value="awesome"> Awesome <br> 
+		<form action="appform.asp" method ="post">
+			<div>
+				What's your name? <input type="text" name="username"> 
+			</div>
 
-	</div>
+			<div>
+				<h2>Which of the following best describes you? </h2> 
+				<input type="radio" name= "describe" value="verySmall"> Very small <br> 
+				<input type="radio" name= "describe" value="big"> Big <br> 
+				<input type="radio" name= "describe" value="shy"> Shy <br> 
+				<input type="radio" name= "describe" value="happy"> Happy <br> 
+				<input type="radio" name= "describe" value="awesome"> Awesome <br> 
 
-	<div>
-		<h2>What's your favourite food?</h2>
-		<input type="checkbox" name="food" value="vegetables"> Vegetables <br>
-		<input type="checkbox" name="food" value="salad"> Salad <br>
-		<input type="checkbox" name="food" value="nuts"> Nuts <br>
-		<input type="checkbox" name="food" value="fish"> Fish <br>
-		<input type="checkbox" name="food" value="fruit"> Fruit <br>
-	</div>	
+			</div>
 
+			<div>
+				<h2>What's your favourite food?</h2>
+				<input type="checkbox" name="food" value="vegetables"> Vegetables <br>
+				<input type="checkbox" name="food" value="salad"> Salad <br>
+				<input type="checkbox" name="food" value="nuts"> Nuts <br>
+				<input type="checkbox" name="food" value="fish"> Fish <br>
+				<input type="checkbox" name="food" value="fruit"> Fruit <br>
+			</div>	
 
-</form>
+			<div>
+				<h2> What's your favourite activity?</h2>
+				<select>
+					<option name="activity" value="swimming">Swimming</option>
+					<option name="activity" value="chilling">Chilling</option>
+					<option name="activity" value="hugging">Hugging</option>
+					<option name="activity" value="smiling">Smiling</option>
+					<option name="activity" value="beingCute">Being cute</option>
+				</select>
+			</div>
 
-</body>
+			<div>
+				<input type="submit" value="Generate">
+			</div>	
+
+		</form>
+
+	</body>
 </HTML>
