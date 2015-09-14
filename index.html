@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>FAC Forms</title>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <script type="text/javascript" href="app.js"></script>
+</head>
+<body>
+<header>
+      <h1>Sports Questionaire Form</h1>
+</header>
+ <div id="t-form">
+    <p> What's Your Sport</p>
+    <form id="t-input" method="post" action="/user" class="train-form">
+      <ul class="sportchoice">
+        <li>Running<input type="radio" name="running" id="t-type1" value="1" checked="checked"></li>
+        <li>Cycling<input type="radio" name="cycling" id="t-type2" value="2"></li>
+        <li>Gym<input type="radio" name="gym"         id="t-type3" value="3"></li>
+        <li>Yoga<input type="radio" name="yoga"       id="t-type4" value="4"></li>
+      </ul>
+
+      <p>Intensity</p>
+      <ol>
+        <li> <input type="radio"name="t-i" id="t-i1"value="1"></li>
+        <li><input type="radio" name="t-i" id="t-i2" value="2"></li>
+        <li><input type="radio" name="t-i" id="t-i3" value="3"></li>
+        <li><input type="radio" name="t-i" id="t-i4" value="4"></li>
+        <li><input type="radio" name="t-i" id="t-i5" value="5" checked="checked"></li>
+        <li><input type="radio" name="t-i" id="t-i6" value="6"></li>
+        <li><input type="radio" name="t-i" id="t-i7" value="7"></li>
+        <li><input type="radio" name="t-i" id="t-i8" value="8"></li>
+        <li><input type="radio" name="t-i" id="t-i9"  value="9"></li>
+        <li><input type="radio" name="t-i" id="t-i10" value="10"></li>
+      </ol>
+     
+   
+
+      <p>Enjoyment</p>
+      <ol>
+        <li> <input type="radio" name="t-e" id="t-e1" value="1"></li>
+        <li> <input type="radio" name="t-e" id="t-e2" value="2"></li>
+        <li> <input type="radio" name="t-e" id="t-e3" value="3"></li>
+        <li> <input type="radio" name="t-e" id="t-e4" value="4"></li>
+        <li><input type="radio"  name="t-e" id="t-e5" value="5" checked="checked"></li>
+        <li> <input type="radio" name="t-e" id="t-e6" value="6"></li>
+        <li><input type="radio" name="t-e" id="t-e7" value="7"></li>
+        <li><input type="radio" name="t-e" id="t-e8" value="8"></li>
+        <li><input type="radio" name="t-e" id="t-e9" value="9"></li>
+        <li><input type="radio" name="t-e" id="t-e10" value="10"></li>
+      </ol>
+
+      <ul>
+        <li> <input type="text" name="t-length" id="t-length" placeholder="Length"></li>
+        <li> <input type="text" name="t-notes" id="t-notes" placeholder="Notes"></li>
+        <li><input type="text"  name="t-injuries" id="t-injuries" placeholder="Injuries"></li>
+        <li> <input type="text" name="t-goals" id="t-goals" placeholder="Goals"></li>
+      </ul>
+      
+         
+         <p><input type="submit"></p>
+
+    </form>
+  </div>
+</body>
+</html>
