@@ -1,11 +1,64 @@
- title {
- 	font-family: sans-serif;
- 	font-size: 36px;
+ h1 {
+ 	text-align: center;
+ 	font-family: "Helvetica", sans-serif;
+ 	font-size: 55px;
+ 	font-style: bold;
  	padding: 5px;
+ 	margin-top: 0.5em;
+ 	margin-bottom:-0.3em;
  }
- 
+
+ p {
+ 	text-align: center;
+ 	font-family: "Helvetica", sans-serif;
+ 	font-size: 20px;
+ 	font-style: italic;
+ 	padding: 8px;
+ 	background: rgba(0,0,0,0.5);
+ }
+
+ h2 {
+ 	text-align: center;
+ 	font-family: "Helvetica", sans-serif;
+ }
+
+ describe{
+ 	display: inline;
+ }
+
+ div.transbox {
+ 	margin: 30px;
+ 	background-color: #fffffff;
+ 	border: 1px solid black;
+ 	opacity: 0.7;
+ 	f }
+
  form {
  	background: url('http://pbs.twimg.com/media/BmvqIrpIQAA59fd.jpg');
  	background-size: cover;
+ 	padding: 10px;
  	color: ;
  }
+
+ body {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+ }
+
+ @media (max-width: 900px) {
+ 	h1 {
+        font-size: 36px;
+        padding: 5px;
+    }
+ }
+
+ input[type="submit"] {
+      background: red;
+      color: white;
+      align: center;
+
+ 
+
+
+
