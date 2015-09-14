@@ -3,10 +3,12 @@
 <html lang="en">
 <head>
   <title>FAC Forms</title>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
  <div id="t-form">
-    <form id="t-input" method="post" action="/user" class="train-form" style="background-color:#81BEF7">
+    <form id="t-input" method="post" action="/user" class="train-form"> //style="background-color:#81BEF7">
       <ul color="#81BEF7">
         <li>Running<input type="radio" name="t-type" id="t-type" value="1" checked=
         "checked"></li>
@@ -18,13 +20,21 @@
         <li>Yoga<input type="radio" name="t-type" id="t-type" value="4"></li>
       </ul>
 
-      <p>Intensity</p><input type="radio" name="t-i" id="t-i1" value="1"><input type=
-      "radio" name="t-i" id="t-i2" value="2"><input type="radio" name="t-i" id="t-i3"
-      value="3"><input type="radio" name="t-i" id="t-i4" value="4"><input type="radio"
-      name="t-i" id="t-i5" value="5" checked="checked"><input type="radio" name="t-i" id=
-      "t-i6" value="6"><input type="radio" name="t-i" id="t-i7" value="7"><input type=
-      "radio" name="t-i" id="t-i8" value="8"><input type="radio" name="t-i" id="t-i9"
-      value="9"><input type="radio" name="t-i" id="t-i10" value="10">
+      <p>Intensity</p>
+      <ol>
+        <li> <input type="radio" name="t-i" id="t-i1"value="1"></li>
+        <li><input type="radio" name="t-i" id="t-i2" value="2"></li>
+        <li><input type="radio" name="t-i" id="t-i3" value="3"></li>
+        <li><input type="radio" name="t-i" id="t-i4" value="4"></li>
+        <li><input type="radio" name="t-i" id="t-i5" value="5" checked="checked"></li>
+        <li><input type="radio" name="t-i" id="t-i6" value="6"></li>
+        <li><input type="radio" name="t-i" id="t-i7" value="7"></li>
+        <li><input type="radio" name="t-i" id="t-i8" value="8"></li>
+        <li><input type="radio" name="t-i" id="t-i9"  value="9"></li>
+        <li><input type="radio" name="t-i" id="t-i10" value="10"></li>
+      </ol>
+     
+   
 
       <p>Enjoyment</p><input type="radio" name="t-e" id="t-e1" value="1"><input type=
       "radio" name="t-e" id="t-e2" value="2"><input type="radio" name="t-e" id="t-e3"
