@@ -1,0 +1,35 @@
+body {
+	background-image: url(http://vignette4.wikia.nocookie.net/lyricwiki/images/3/3b/Liberty_X_-_X.jpg/revision/latest/scale-to-width-down/480?cb=20130117080138);
+
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 50pt;
+	margin-bottom: 0pt;
+}
+
+.form {
+	background-color: white;
+	opacity: 0.9;
+	font-family: arial;
+	position: center;
+}
+
+div {
+	text-align: center;
+}
+
+form select {
+	background-color: #F5ED8E;
+	font-size: 22pt;
+	opacity: 1;
+}
+
+button {
+	font-size: 30pt;
+	background-color: pink;
+	margin-top: 10px;
+	font-family: 'Monoton', cursive;
+	margin-bottom: 20px;
+}
