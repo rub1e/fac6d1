@@ -1,15 +1,42 @@
-# fac6d1
+# Health Checkup
 
-## What?  
-* Day one of FAC6 - basic intro to git and team-working
+#### This questionnaire calculates the users BMI
 
-## How?
-* Clone this repo  
-* Do what the filenames say  
+#### HTML
+* Input Fields with ID Types
+* Layout same as that in wireframe
+* Link to CSS and HTML
+* Submit Button needs to work correctly
 
-## Why?
-* Learn to code good
 
-  
-  
-![Honest Abe](http://i.imgur.com/KbV6JeX.png?utm_source=Mr%20Hyde&utm_medium=email&utm_campaign=6150746_MH%20140915&dm_i=25MP,3NTY2,GCG4Y8,D6C4H,1)
+#### CSS
+* Work on Mobile and Web Browser - Look into media Query (min-width)
+* Color, font needs to be same across whole page
+* Make it look nice
+
+#### Javascript
+* Pass in ID's
+* Function to get radio values, Func for Dropdown
+* Once form is submited, get the form
+* Console Log all the details. (free text, radio and dropdown)
+* Error Handler for incorrect input values
+*
+
+##### ID's
+* fullname
+* age
+* weight
+* height
+* exercise
+* smoke
+* email
+* optin
+
+
+
+
+
+
+
+
+![Octocat](https://og.github.com/mark/github-mark@1200x630.png)
