@@ -26,17 +26,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     e.preventDefault();
 
     var name = name_div.getElementsByTagName("input")[0].value;
-    console.log("name: " + name);
+    // console.log("name: " + name);
 
     var radioCheck;
     var radios = description_div.getElementsByTagName("input");
-    for (elem in radios) {
-      if (elem.checked) {
-        radioCheck = elem.value;
+    for (var i = 0; i < radios.length; i++) {
+      if (radios[i].checked) {
+        radioCheck = radios[i].value;
         break;
       }
     }
-    console.log("description radio checked: " + radioCheck+1);
+    console.log(name + " is " + radioCheck + "!");
   });
 
   //   intInput = (getRadioValue("t-i", intInput)+1);
