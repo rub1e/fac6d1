@@ -30,3 +30,11 @@
    + How are they going to input data? (Mobile device!!)
    
    Try drawing out wireframes of your app, and form. It's okay to design parts of a page that won't function (menu buttons) as well as think about elements that might enhance your user's experience. Stay focused on the form, though! Try to red-team your app (think about how it might break, or annoy a user), as well as think about all the different types of data that you might want to capture, prior to selecting individual types to capture. Feel free to use the internet and rip off other ideas!
+
+## Exercise 3 - creating your form (2hrs)  
+
+* Create the form that you have wireframed
+* Everything that the form captures should be printed to the console when the form is submitted...  
+* ... but the form itself should be disabled from its usual behaviour
+
+Stretch goals to follow...
