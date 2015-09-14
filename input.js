@@ -1,3 +1,5 @@
+console.log("!!!!?????")
+
 // function getRadioValue(groupName, groupVal) {
 //   var valRet = 0;
 //   var radios = document.getElementsByName(groupName);
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // var noteInput = document.getElementById('t-notes');
   //  var goalInput = document.getElementById('t-goals');
 
-  document.querySelector('form.train-form').addEventListener('submit', function(e) {
+  document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault();
 
     console.log("form submit !!!!");
@@ -35,5 +37,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
   //   console.log("{Notes: "+noteInput.value+"}"); 
   //   console.log("{Injuries: "+injInput.value+"}");
   //   console.log("{Goals: "+goalInput.value+"}")
-  // });
+  });
 });
