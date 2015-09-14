@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var enjInput = 11;
   var lenInput = document.getElementById('t-length');
   var noteInput = document.getElementById('t-notes');
-  var injInput = document.getElementById('t-injuries');
-  var goalInput = document.getElementById('t-goals');
+   var goalInput = document.getElementById('t-goals');
 
   document.querySelector('form.train-form').addEventListener('submit', function(e) {
     e.preventDefault();
